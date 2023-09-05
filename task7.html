@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            width: 100vw;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 80px;
+        }
+
+        .innerclass {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            width: 50vw;
+            border: 2px solid black;
+            padding: 20px;
+            border-radius: 20px;
+        }
+
+        .verticalNav {
+            border: 1px solid black;
+        }
+
+        .vertical {
+            display: flex;
+            flex-direction: column;
+            padding: 8px 8px 0 8px
+        }
+
+        .vertical a {
+            background-color: lightblue;
+            padding: 10px 80px 10px 10px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .vertical a:first-child {
+            background-color: rgb(232, 165, 41);
+        }
+
+        .horizontalNav{
+            padding: 4px;
+            border: 1px solid black;
+        }
+
+        .horizontal{
+            background-color: lightgray;
+        }
+
+        .horizontal a{
+            text-decoration: none;
+            padding-right: 20px;
+            border-right: 1px solid black;
+            font-size: 18px;
+            padding-left: 10px;
+            color: blue;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Task-7</h1>
+        <h1>Aryan Sharma 21BBS0106</h1>
+        <div class="innerclass">
+            <div class="verticalNav">
+                <nav class="vertical">
+                    <a href="" id="home-link">Home</a>
+                    <a href="">Java</a>
+                    <a href="">CSS</a>
+                    <a href="">HTML</a>
+                    <a href="">Bootstrap</a>
+                </nav>
+            </div>
+
+            <div class="horizontalNav">
+                <nav class="horizontal">
+                    <a href="">Home</a>
+                    <a href="">Java</a>
+                    <a href="">CSS</a>
+                    <a href="">HTML</a>
+                    <a href="">Bootstrap</a>
+                </nav>
+            </div>
+        </div>
+</body>
+
+</html>
