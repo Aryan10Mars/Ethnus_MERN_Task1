@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            width: 100vw;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 80px;
+        }
+
+        .inner {
+            display: flex;
+            align-items: center;
+            width: 50vw;
+            border: 2px solid black;
+            padding: 20px;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .imageDiv {
+            margin-top: 20px;
+        }
+        
+        .image {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 2px solid black;
+        }
+
+        .nameDiv {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .inputContainer {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .inp {
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            width: 50%;
+            margin-top: 10px;
+        }
+
+        .inp input {
+            width: 96%;
+            padding: 6px;
+        }
+
+        .inp :nth-child(1) {
+            font-weight: 700;
+        }
+
+        .buttonContainer {
+            width: 100%;
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        button {
+            width: 50%;
+            padding: 10px;
+            background-color: rgb(35, 156, 35);
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .rememberMe {
+            align-items: flex-start;
+            display: flex;
+            margin-top: 10px;
+            width: 50%;
+        }
+
+        .footerDiv {
+            width: 50%;
+            height: 30px;
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+            background-color: rgb(202, 201, 201);
+        }
+
+        .footerDiv a {
+            text-decoration: none;
+        }
+
+        .footerDiv a:nth-child(1) {
+            padding: 4px 8px;
+            border-radius: 5px;
+            background: red;
+            color: white;
+        }
+
+        .hori{
+            width: 50%;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Task-6 [CSS]</h1>
+        <h1>Aryan Sharma 21BBS0106</h1>
+        <div class="inner">
+            <div class="imageDiv">
+                <div class="image">Photo</div>
+            </div>
+
+            <div class="nameDiv">
+                <div class="inputContainer">
+                    <div class="inp">
+                        <div for="username">Username</div>
+                        <input type="text" id="username" placeholder="Enter Username">
+                    </div>
+                </div>
+
+                <div class="inputContainer">
+                    <div class="inp">
+                        <div for="password">Password</div>
+                        <input type="password" id="password" placeholder="Enter Password">
+                    </div>
+                </div>
+
+                <div class="buttonContainer">
+                    <button>Login</button>
+                </div>
+
+                <div class="rememberMe">
+                    <input type="checkbox" id="remember" name="remember">
+                    <label for="remember">Remember Me</label>
+                </div>
+            </div>
+            <hr class="hori"/>
+            <div class="footerDiv">
+                <a href="#">Cancel</a>
+                <a href="#">Forgot Password?</a>
+            </div>
+    </div>
+</body>
+
+</html>
